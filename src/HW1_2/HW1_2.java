@@ -1,6 +1,6 @@
-package HW2;
+package HW1_2;
 
-public class HW2 {
+public class HW1_2 {
 
 	public static void task1() {
 		byte aByte = 1;
