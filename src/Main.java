@@ -1,5 +1,11 @@
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+
+
+HW1_3 hw1_3 = new HW1_3();
+
+		HW1_3.HW5();
+
+
 	}
 }
