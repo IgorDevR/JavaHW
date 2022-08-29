@@ -3,6 +3,7 @@ import java.util.Locale;
 public class Main {
 	public static void main(String[] args) {
 
+
 		HW1();
 		HW2();
 		HW3();
