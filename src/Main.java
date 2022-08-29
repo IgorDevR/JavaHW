@@ -1,3 +1,5 @@
+import HW2.HW2;
+
 public class Main {
 	public static void main(String[] args) {
 
@@ -5,6 +7,7 @@ public class Main {
 		HW2();
 		HW3();
 		HW4();
+
 	}
 
 	static void HW1() {
@@ -14,7 +17,7 @@ public class Main {
 		for (int i = 0; i < costsArr.length; i++) {
 			sum += costsArr[i];
 		}
-		System.out.println("Сумма трат за месяц составила " + sum + " рублей");
+		System.out.println("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ " + sum + " пїЅпїЅпїЅпїЅпїЅпїЅ");
 	}
 
 	static void HW2() {
@@ -31,8 +34,8 @@ public class Main {
 				max = costsArr[i];
 			}
 		}
-		System.out.println("Минимальная сумма трат за день составила " + min + " рублей");
-		System.out.println("Максимальная сумма трат за день составила " + max + " рублей");
+		System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ " + min + " пїЅпїЅпїЅпїЅпїЅпїЅ");
+		System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ " + max + " пїЅпїЅпїЅпїЅпїЅпїЅ");
 	}
 	static void HW3() {
 
@@ -44,7 +47,7 @@ public class Main {
 		}
 		average /= costsArr.length;
 
-		System.out.println("Средняя сумма трат за месяц составила " + average);
+		System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ " + average);
 	}
 	static void HW4() {
 
