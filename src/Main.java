@@ -14,8 +14,8 @@ public class Main {
 
 		int[] costsArr = generateRandomArray();
 		int sum = 0;
-		for (int i = 0; i < costsArr.length; i++) {
-			sum += costsArr[i];
+		for (int costs : costsArr) {
+			sum += costs;
 		}
 		System.out.println("����� ���� �� ����� ��������� " + sum + " ������");
 	}
