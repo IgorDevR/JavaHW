@@ -1,5 +1,6 @@
 import java.util.Locale;
 
+
 public class Main {
 	public static void main(String[] args) {
 
@@ -16,7 +17,7 @@ public class Main {
 		String lastName = "Ivanov";
 		String fullName  = lastName + " " + middleName + " " + firstName;
 
-		System.out.println("ФИО сотрудника — " + fullName );
+		System.out.println("пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ " + fullName );
 	}
 	static void HW2() {
 
@@ -25,13 +26,13 @@ public class Main {
 		String lastName = "Ivanov";
 		String fullName  = lastName + " " + middleName + " " + firstName;
 
-		System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName.toUpperCase(Locale.ROOT));
+		System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ " + fullName.toUpperCase(Locale.ROOT));
 
 	}
 	static void HW3() {
 
-		String fullName  = "Иванов Семён Семёнович";
-		System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName.replace("ё", "е"));
+		String fullName  = "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ";
+		System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ " + fullName.replace("пїЅ", "пїЅ"));
 
 	}
 }
