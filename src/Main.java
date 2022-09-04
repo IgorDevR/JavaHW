@@ -3,9 +3,9 @@ import java.time.LocalDate;
 public class Main {
 	public static void main(String[] args) {
 
-		HW1(2000);
-		HW2(0, 2015);
-		int del = HW3(95);
+		hW1(2000);
+		hW2(0, 2015);
+		int del = hW3(95);
 	}
 
 	public static void hW1(int year) {
