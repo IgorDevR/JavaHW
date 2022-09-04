@@ -9,8 +9,16 @@ public class RunApp {
 		book book1 = new book("Book1", author1, 2015);
 		book book2 = new book("Book2", author2, 2017);
 
+		System.out.println(book1);
+		System.out.println(book2);
+
 		book1.setYearOfPublication(2020);
 		book2.setYearOfPublication(2021);
+
+		System.out.println(book1);
+		System.out.println(book2);
+
+
 
 	}
 

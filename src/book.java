@@ -4,6 +4,15 @@ public class book {
 	private author author;
 	private int yearOfPublication;
 
+	@Override
+	public String toString() {
+		return "book{" +
+				"nameBook='" + nameBook + '\'' +
+				", author=" + author +
+				", yearOfPublication=" + yearOfPublication +
+				'}';
+	}
+
 	public book(String nameBook, author author, int yearOfPublication) {
 		this.nameBook = nameBook;
 		this.author = author;
