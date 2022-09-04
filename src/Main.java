@@ -8,7 +8,7 @@ public class Main {
 		int del = HW3(95);
 	}
 
-	public static void HW1(int year) {
+	public static void hW1(int year) {
 
 		if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
 			System.out.println(year + "  — високосный год");
@@ -18,7 +18,7 @@ public class Main {
 
 	}
 
-	public static void HW2(int typeOS, int yearOfIssue) {
+	public static void hW2(int typeOS, int yearOfIssue) {
 
 		int currentYear = LocalDate.now().getYear();
 
@@ -37,7 +37,7 @@ public class Main {
 		}
 	}
 
-	public static int HW3(int deliveryDistance) {
+	public static int hW3(int deliveryDistance) {
 
 		if (deliveryDistance <= 20) {
 			System.out.println("Потребуется дней: " + 1);
