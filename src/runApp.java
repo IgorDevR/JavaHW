@@ -1,3 +1,4 @@
+
 public class runApp {
 	public static void main(String[] args) {
 
@@ -29,8 +30,5 @@ public class runApp {
 		System.out.println(author1.hashCode() == author1Duplicate.hashCode());
 		System.out.println(book3.hashCode() == book3Duplicate.hashCode());
 
-
 	}
-
-
 }

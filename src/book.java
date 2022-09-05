@@ -46,7 +46,9 @@ public class book {
 			return false;
 		}
 		book otherBook = (book) other;
-		return this.getNameBook().equals(otherBook.getNameBook()) && this.getAuthor().equals(otherBook.getAuthor()) && this.getNameBook() == getNameBook();
+		return this.getNameBook().equals(otherBook.getNameBook())
+				&& this.getAuthor().equals(otherBook.getAuthor())
+				&& this.getNameBook() == getNameBook();
 	}
 
 

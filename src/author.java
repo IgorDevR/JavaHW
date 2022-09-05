@@ -25,7 +25,6 @@ public class author {
 	public String getFirstName() {
 		return firstName;
 	}
-	//	return authorThis.getLastName().equals(((author) other).lastName) && authorThis.getFirstName().equals(((author) other).getFirstName());
 
 	@Override
 	public boolean equals(Object other) {
@@ -36,12 +35,13 @@ public class author {
 			return false;
 		}
 		author otherAuthor = (author) other;
-		return this.getLastName().equals(otherAuthor.getLastName()) && this.getFirstName().equals(otherAuthor.getFirstName());
+		return this.getLastName().equals(otherAuthor.getLastName())
+				&& this.getFirstName().equals(otherAuthor.getFirstName());
 	}
 
 
-		@Override
-		public int hashCode() {
-			return Objects.hash(getFirstName() + getLastName());
-		}
+	@Override
+	public int hashCode() {
+		return Objects.hash(getFirstName() + getLastName());
+	}
 }
