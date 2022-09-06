@@ -52,7 +52,8 @@ public class Main {
 		}
 		return sum;
 	}
-
+  
+  
 	private static Employee thePoorestWorker(Employee[] employees) {
 		double min = employees[0].getSalary();
 		int poorWorkerIndex = 0;
@@ -87,7 +88,6 @@ public class Main {
 		for (int i = 0; i < employees.length; i++) {
 			System.out.println(employees[i].getFullNameEmployee());
 		}
-
 
 	}
 
