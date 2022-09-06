@@ -28,7 +28,6 @@ public class Main {
 		listAllEmployees(employees);
 		System.out.println("________________________________");
 
-
 	}
 
 	private static void getAllemployees(Employee[] employees) {
@@ -87,7 +86,6 @@ public class Main {
 		for (int i = 0; i < employees.length; i++) {
 			System.out.println(employees[i].getFullNameEmployee());
 		}
-
 
 	}
 
