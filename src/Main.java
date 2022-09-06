@@ -51,7 +51,8 @@ public class Main {
 		}
 		return sum;
 	}
-
+  
+  
 	private static Employee thePoorestWorker(Employee[] employees) {
 		double min = employees[0].getSalary();
 		int poorWorkerIndex = 0;
