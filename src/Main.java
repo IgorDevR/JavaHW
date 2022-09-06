@@ -36,7 +36,6 @@ public class Main {
 		for (int i = 0; i < employees.length; i++) {
 			System.out.println(employees[i]);
 		}
-
 	}
 
 	private static double sumOrAverageSalarys(Employee[] employees, boolean isAverage) {
