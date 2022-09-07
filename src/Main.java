@@ -2,6 +2,7 @@ public class Main {
 	static Employee[] employees = new Employee[10];
 	public static void main(String[] args) {
 
+
 		employees = new Employee[]{
 				new Employee("Semenov Semen Semenovich 1", "1", 10000),
 				new Employee("Semenov Semen Semenovich 2", "3", 1200),
@@ -28,6 +29,7 @@ public class Main {
 		System.out.println("________________________________");
 		listAllEmployees();
 		System.out.println("________________________________");
+
 	}
 
 	private static void getAllemployees() {
