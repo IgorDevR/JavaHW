@@ -11,8 +11,7 @@ public class Employee {
 		this.fullNameEmployee = fullNameEmployee;
 		this.department = department;
 		this.salary = salary;
-		this.id = idCnt;
-		idCnt++;
+		this.id = idCnt++;
 	}
 
 	public String getFullNameEmployee() {
