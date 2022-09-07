@@ -1,7 +1,8 @@
 public class Main {
+	static Employee[] employees = new Employee[10];
 	public static void main(String[] args) {
 
-		Employee[] employees = new Employee[]{
+		employees = new Employee[]{
 				new Employee("Semenov Semen Semenovich 1", "1", 10000),
 				new Employee("Semenov Semen Semenovich 2", "3", 1200),
 				new Employee("Semenov Semen Semenovich 3", "2", 15000),
@@ -15,23 +16,23 @@ public class Main {
 		};
 
 		System.out.println("________________________________");
-		getAllemployees(employees);
+		getAllemployees();
 		System.out.println("________________________________");
-		System.out.println("The total amount of all costs for employees: " + sumOrAverageSalarys(employees, false));
+		System.out.println("The total amount of all costs for employees: " + sumOrAverageSalarys(false));
 		System.out.println("________________________________");
-		System.out.println("The minimum wage for an employee: " + thePoorestWorker(employees));
+		System.out.println("The minimum wage for an employee: " + thePoorestWorker());
 		System.out.println("________________________________");
-		System.out.println("The maximum wage for an employee: " + theProsperousWorker(employees));
+		System.out.println("The maximum wage for an employee: " + theProsperousWorker());
 		System.out.println("________________________________");
-		System.out.println("Average salary of all employees: " + sumOrAverageSalarys(employees, true));
+		System.out.println("Average salary of all employees: " + sumOrAverageSalarys(true));
 		System.out.println("________________________________");
-		listAllEmployees(employees);
+		listAllEmployees();
 		System.out.println("________________________________");
 
-
+		Employee[] employees1 = new Employee[2];
 	}
 
-	private static void getAllemployees(Employee[] employees) {
+	private static void getAllemployees() {
 
 		System.out.println("Employee Information: ");
 		for (int i = 0; i < employees.length; i++) {
@@ -40,7 +41,7 @@ public class Main {
 
 	}
 
-	private static double sumOrAverageSalarys(Employee[] employees, boolean isAverage) {
+	private static double sumOrAverageSalarys(boolean isAverage) {
 
 		double sum = 0;
 
@@ -53,7 +54,7 @@ public class Main {
 		return sum;
 	}
 
-	private static Employee thePoorestWorker(Employee[] employees) {
+	private static Employee thePoorestWorker() {
 		double min = employees[0].getSalary();
 		int poorWorkerIndex = 0;
 
@@ -67,7 +68,7 @@ public class Main {
 		return employees[poorWorkerIndex];
 	}
 
-	private static Employee theProsperousWorker(Employee[] employees) {
+	private static Employee theProsperousWorker() {
 		double max = employees[0].getSalary();
 		int prosperousWorkerIndex = 0;
 
@@ -81,7 +82,7 @@ public class Main {
 		return employees[prosperousWorkerIndex];
 	}
 
-	private static void listAllEmployees(Employee[] employees) {
+	private static void listAllEmployees() {
 
 		System.out.println("list of all employees: ");
 		for (int i = 0; i < employees.length; i++) {
