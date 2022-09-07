@@ -28,8 +28,6 @@ public class Main {
 		System.out.println("________________________________");
 		listAllEmployees();
 		System.out.println("________________________________");
-
-		Employee[] employees1 = new Employee[2];
 	}
 
 	private static void getAllemployees() {
@@ -55,13 +53,12 @@ public class Main {
 	}
 
 	private static Employee thePoorestWorker() {
-		double min = employees[0].getSalary();
+		double min = Double.MAX_VALUE;
 		int poorWorkerIndex = 0;
 
 		for (int i = 0; i < employees.length; i++) {
 			if (employees[i].getSalary() < min) {
-				min:
-				employees[i].getSalary();
+				min = employees[i].getSalary();
 				poorWorkerIndex = i;
 			}
 		}
@@ -69,13 +66,12 @@ public class Main {
 	}
 
 	private static Employee theProsperousWorker() {
-		double max = employees[0].getSalary();
+		double max = Double.MIN_VALUE;
 		int prosperousWorkerIndex = 0;
 
-		for (int i = 0; i < employees.length; i++) {
+		for (int i = 0; i < employees.length ; i++) {
 			if (employees[i].getSalary() > max) {
-				max:
-				employees[i].getSalary();
+				max = employees[i].getSalary();
 				prosperousWorkerIndex = i;
 			}
 		}
