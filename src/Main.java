@@ -54,7 +54,7 @@ public class Main {
 
 	private static Employee thePoorestWorker() {
 		double min = Double.MAX_VALUE;
-		int poorWorkerIndex = 0;
+		Integer poorWorkerIndex = null;
 
 		for (int i = 0; i < employees.length; i++) {
 			if (employees[i].getSalary() < min) {
@@ -62,12 +62,12 @@ public class Main {
 				poorWorkerIndex = i;
 			}
 		}
-		return employees[poorWorkerIndex];
+		return poorWorkerIndex == null ? null : employees[poorWorkerIndex];
 	}
 
 	private static Employee theProsperousWorker() {
 		double max = Double.MIN_VALUE;
-		int prosperousWorkerIndex = 0;
+		Integer prosperousWorkerIndex = null;
 
 		for (int i = 0; i < employees.length ; i++) {
 			if (employees[i].getSalary() > max) {
@@ -75,7 +75,7 @@ public class Main {
 				prosperousWorkerIndex = i;
 			}
 		}
-		return employees[prosperousWorkerIndex];
+		return prosperousWorkerIndex == null ? null : employees[prosperousWorkerIndex];
 	}
 
 	private static void listAllEmployees() {
