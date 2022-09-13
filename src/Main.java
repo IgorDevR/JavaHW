@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
 
         Gryffindor HarryPotter = new Gryffindor("Harry Potter", 60, 50, 45, 55, 65);
@@ -25,13 +26,13 @@ public class Main {
         HarryPotter.comparisonInsideSchools(GrahamMontagu);
         ZachariahSmith.comparisonInsideSchools(MarcusBelby);
         RonWeasley.comparisonInsideSchools(HermioneGranger);
-       PadmaPatil.comparisonInsideSchools(CedricDiggory);
+        PadmaPatil.comparisonInsideSchools(CedricDiggory);
 
         HarryPotter.printAllСharact();
         DracoMalfoy.printAllСharact();
         ZachariahSmith.printAllСharact();
         ZhouChang.printAllСharact();
+
+
     }
-
-
 }
