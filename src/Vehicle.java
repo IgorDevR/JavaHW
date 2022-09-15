@@ -1,24 +1,24 @@
-public abstract interface Vehicle {
-    String modelName = null;
-    int wheelsCount = 0;
+public abstract class Vehicle {
+    private String modelName;
+    private int wheelsCount;
 
-    public default void updateTyre() {
+    public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
 
-    public default String getModelName() {
+    public String getModelName() {
         return modelName;
     }
 
-    public default void setModelName(String modelName) {
-        modelName = modelName;
+    public void setModelName(String modelName) {
+        this.modelName = modelName;
     }
 
-    public default int getWheelsCount() {
+    public int getWheelsCount() {
         return wheelsCount;
     }
 
-    public default void setWheelsCount(int wheelsCount) {
-        wheelsCount = wheelsCount;
+    public void setWheelsCount(int wheelsCount) {
+        this.wheelsCount = wheelsCount;
     }
 }
