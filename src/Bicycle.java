@@ -1,4 +1,4 @@
-public class Bicycle extends Vehicle{
+public class Bicycle implements Vehicle{
 
 
 }
