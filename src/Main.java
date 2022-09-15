@@ -1,6 +1,7 @@
 public class Main {
 
-
+    public static void main(String[] args) {
+    
 		Car car = new Car();
 		Car car2 = new Car();
 		car.setModelName("car1");
@@ -29,5 +30,7 @@ public class Main {
 		station.check(null, bicycle2, null);
 		station.check(null, null, truck);
 		station.check(null, null, truck2);
-	}
+
+    }
+
 }
