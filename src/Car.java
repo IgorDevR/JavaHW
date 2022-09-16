@@ -1,5 +1,7 @@
-public class Car extends Vehicle {
+public class Car implements Vehicle {
 
+    private String modelName;
+    private int wheelsCount;
     @Override
     public void updateTyre() {
         System.out.println("Меняем покрышку Car");
@@ -10,6 +12,21 @@ public class Car extends Vehicle {
 
     }
 
+    public String getModelName() {
+        return modelName;
+    }
+
+    public void setModelName(String modelName) {
+        this.modelName = modelName;
+    }
+
+    public int getWheelsCount() {
+        return wheelsCount;
+    }
+
+    public void setWheelsCount(int wheelsCount) {
+        this.wheelsCount = wheelsCount;
+    }
 }
 
 

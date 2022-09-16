@@ -14,6 +14,7 @@ public class ServiceStation {
             }
             truck.checkEngine();
             truck.checkTrailer();
+            truck.checkTrailer(2);
         } else if (bicycle != null) {
             System.out.println("Обслуживаем " + bicycle.getModelName());
             for (int i = 0; i < bicycle.getWheelsCount(); i++) {
